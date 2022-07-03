@@ -8,7 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lwifi/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/samsung/gta4lwifi/proprietary/etc/audio_effects_model.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects_model.xml \
-    vendor/samsung/gta4lwifi/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
+#    vendor/samsung/gta4lwifi/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
     vendor/samsung/gta4lwifi/proprietary/lib/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/vendor.qti.hardware.qccsyshal@1.0-impl.so \
     vendor/samsung/gta4lwifi/proprietary/lib/libQSEEComAPI_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libQSEEComAPI_system.so \
     vendor/samsung/gta4lwifi/proprietary/lib/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdatasource.so \
@@ -756,7 +756,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lwifi/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/samsung/gta4lwifi/proprietary/vendor/etc/seccomp_policy/configstore@1.1.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.1.policy \
     vendor/samsung/gta4lwifi/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
-    vendor/samsung/gta4lwifi/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+#    vendor/samsung/gta4lwifi/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/samsung/gta4lwifi/proprietary/vendor/etc/seccomp_policy/mediaextractor_sec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor_sec.policy \
     vendor/samsung/gta4lwifi/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/samsung/gta4lwifi/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
